@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BudgetPro"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.TampilanTransaksi"
+            android:exported="false"
+            android:label="@string/title_activity_tampilan_transaksi"
+            android:theme="@style/Theme.BudgetPro" />
+        <activity
+            android:name=".ui.TampilanStatistik"
+            android:exported="false"
+            android:label="@string/title_activity_tampilan_statistik"
+            android:theme="@style/Theme.BudgetPro" />
+        <activity
+            android:name=".ui.TampilanPiutang"
+            android:exported="false"
+            android:label="@string/title_activity_tampilan_piutang"
+            android:theme="@style/Theme.BudgetPro" />
+        <activity
+            android:name=".ui.TampilanPengeluaran"
+            android:exported="false"
+            android:label="@string/title_activity_tampilan_pengeluaran"
+            android:theme="@style/Theme.BudgetPro" />
+        <activity
+            android:name=".ui.TampilanPendapatan"
+            android:exported="false"
+            android:label="@string/title_activity_tampilan_pendapatan"
+            android:theme="@style/Theme.BudgetPro" />
+        <activity
+            android:name=".ui.TampilanHutang"
+            android:exported="false"
+            android:label="@string/title_activity_tampilan_hutang"
+            android:theme="@style/Theme.BudgetPro" />
+        <activity
+            android:name=".ui.TampilanDetail"
+            android:exported="false"
+            android:label="@string/title_activity_tampilan_detail"
+            android:theme="@style/Theme.BudgetPro" />
+        <activity
+            android:name=".ui.TampilanBeranda"
+            android:exported="false"
+            android:label="@string/title_activity_tampilan_beranda"
+            android:theme="@style/Theme.BudgetPro" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.BudgetPro">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

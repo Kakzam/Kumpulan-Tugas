@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "96547463997",
+    "project_id": "kostin-d981e",
+    "storage_bucket": "kostin-d981e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96547463997:android:e93407f34ecea36d159b54",
+        "android_client_info": {
+          "package_name": "com.kost.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "96547463997-3df5d2ns3924vuli1mfdrkbt91hq55od.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcwZjM7Mg1omRKD44hA2l64zSTYH7qQSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "96547463997-3df5d2ns3924vuli1mfdrkbt91hq55od.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Tentang">
+
+    <ImageView
+        android:id="@+id/imgFaq"
+        android:layout_width="450dp"
+        android:layout_height="280dp"
+        android:src="@drawable/ic_utama"/>
+
+    <TextView
+        android:id="@+id/FaqDt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgFaq"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:text="Aplikasi KosIn adalah aplikasi untuk mencari kost atau kontrakan terdekat"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/nama"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/FaqDt"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:gravity="center"-->
+<!--        android:textAlignment="gravity"-->
+<!--        android:text="Bambang Satrio Nugroho"/>-->
+
+    <TextView
+        android:id="@+id/jurusan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FaqDt"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:text="Informatika Universitas Teknokrat"/>
+
+</RelativeLayout>

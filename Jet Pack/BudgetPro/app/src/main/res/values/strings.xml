@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BudgetPro</string>
+    <string name="title_activity_tampilan_beranda">TampilanBeranda</string>
+    <string name="title_activity_tampilan_detail">TampilanDetail</string>
+    <string name="title_activity_tampilan_hutang">TampilanHutang</string>
+    <string name="title_activity_tampilan_pendapatan">TampilanPendapatan</string>
+    <string name="title_activity_tampilan_pengeluaran">TampilanPengeluaran</string>
+    <string name="title_activity_tampilan_piutang">TampilanPiutang</string>
+    <string name="title_activity_tampilan_statistik">TampilanStatistik</string>
+    <string name="title_activity_tampilan_transaksi">TampilanTransaksi</string>
+</resources>

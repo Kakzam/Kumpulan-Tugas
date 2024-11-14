@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "905279015705",
+    "project_id": "bridetobe-ee1c4",
+    "storage_bucket": "bridetobe-ee1c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905279015705:android:a6651d115162161b625388",
+        "android_client_info": {
+          "package_name": "com.bride.tobe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905279015705-g2dgj5kvbvfsf1u3k1ls9kkvvhvmk2ob.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABo-Pz0yNrqk-D3vx7w6OU4QqkPIm-uHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905279015705-g2dgj5kvbvfsf1u3k1ls9kkvvhvmk2ob.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
