@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tubacco House</string>
+      <string-array name="kategori_sampah">
+        <item>Barack Vanila</item>
+        <item>Barack Iceland</item>
+        <item>Barack Banana Milk Ice</item>
+        <item>Barack Black Wine</item>
+          <item>Barack Balinese Wine</item>
+          <item>Barack Anggur Putih</item>
+          <item>Barack Whiskey</item>
+          <item>Barack Orang Tua</item>
+    </string-array>
+    <string-array name="harga_perkilo">
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+    </string-array>
+
+
+    <string-array name="stok_barang">
+        <item>Barack Vanila</item>
+        <item>Barack Iceland</item>
+        <item>Barack Banana Milk Ice</item>
+        <item>Barack Black Wine</item>
+        <item>Barack Balinese Wine</item>
+        <item>Barack Anggur Putih</item>
+        <item>Barack Whiskey</item>
+        <item>Barack Orang Tua</item>
+
+    </string-array>
+    <string-array name="harga_barang">
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+        <item>20000</item>
+    </string-array>
+</resources>
