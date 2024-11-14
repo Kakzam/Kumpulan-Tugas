@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "35236455754",
+    "project_id": "zone-beauty-nails-4f603",
+    "storage_bucket": "zone-beauty-nails-4f603.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35236455754:android:a81763beed5617b1fb0db3",
+        "android_client_info": {
+          "package_name": "com.zone.beautynails"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35236455754-ns4dotpo1hs27klc5boqs0j7evo010e9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEpqkHfM8C0Ch4b4T2zVJgpzNHNLLINMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35236455754-ns4dotpo1hs27klc5boqs0j7evo010e9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

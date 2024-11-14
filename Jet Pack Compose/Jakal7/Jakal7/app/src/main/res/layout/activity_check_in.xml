@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard.lapanganfutsal.CheckInActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/gambar1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:civ_border_color="@color/yellow"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/tvlokasiCheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:text="Banjarmasin"
+        android:textColor="@color/abuabu"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="@+id/gambar1"
+        app:layout_constraintTop_toBottomOf="@+id/gambar1" />
+
+    <TextView
+        android:id="@+id/tvLapanganCheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Class"
+        android:textColor="@color/darkblue"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="@+id/tvlokasiCheckout"
+        app:layout_constraintTop_toBottomOf="@+id/tvlokasiCheckout" />
+
+    <TextView
+        android:id="@+id/tvrateCheckout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:drawableLeft="@drawable/ic_baseline_star_24"
+        android:gravity="center"
+        android:text="9.7"
+        android:textColor="@color/abuabu"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLapanganCheckout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvlokasiCheckout" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/layout_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLapanganCheckout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_white"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="16dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="14dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:textStyle="bold"
+                        android:text="Customer Data"
+                        android:textColor="@color/teal_700"
+                        android:textSize="16dp" />
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:cardCornerRadius="14dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        app:cardElevation="12dp"
+                        app:cardBackgroundColor="@color/white">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="2">
+
+
+
+                            <Button
+                                android:id="@+id/btnDate"
+                                android:layout_width="50dp"
+                                android:layout_height="35dp"
+                                android:text="Pilih tanggal"
+                                android:background="@drawable/button_yellow"
+                                android:textColor="@color/abuabu"
+                                android:layout_marginLeft="6dp"
+                                android:layout_marginTop="10dp"
+                                android:textAllCaps="false"
+                                android:textSize="11dp"
+                                android:layout_marginBottom="6dp"
+                                android:layout_weight="1"/>
+
+                            <TextView
+                                android:id="@+id/tvDate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_weight="1"
+                                android:layout_marginTop="10dp"
+                                android:gravity="right"
+                                android:textSize="12dp"
+                                android:drawablePadding="6dp"
+                                android:drawableRight="@drawable/ic_baseline_verified_user_24"
+                                android:layout_marginRight="8dp"
+                                android:textColor="#2196F3"
+                                android:hint="Pilih tanggal sewa"
+                                android:textColorHint="#2196F3"/>
+
+
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_marginRight="8dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="13dp"
+                        app:cardElevation="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pilih Lapangan"
+                                android:textColor="@color/darkblue"
+                                android:layout_marginLeft="10dp"/>
+
+                            <Spinner
+                                android:id="@+id/spKamar"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="24dp"
+                                android:dropDownSelector="@color/yellow"
+                                android:textAlignment="center" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="8dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="13dp"
+                        app:cardElevation="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pilih waktu sewa"
+                                android:textColor="@color/darkblue"
+                                android:layout_marginLeft="10dp"/>
+
+                            <Spinner
+                                android:id="@+id/spJam"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="24dp"
+                                android:dropDownSelector="@color/yellow"
+                                android:textAlignment="center" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="8dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="13dp"
+                        app:cardElevation="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Status anda"
+                                android:textColor="@color/darkblue"
+                                android:layout_marginLeft="10dp"/>
+                            <Spinner
+                                android:id="@+id/spStatus"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="24dp"
+                                android:layout_marginBottom="14dp"
+                                android:dropDownSelector="@color/yellow"
+                                android:textAlignment="center" />
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="8dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="13dp"
+                        app:cardElevation="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="No Phone"
+                                android:textColor="@color/darkblue"
+                                android:layout_marginLeft="10dp"/>
+
+                            <EditText
+                                android:id="@+id/etPhone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="4dp"
+                                android:inputType="number"
+                                android:hint="08xxxxxxxx"
+                                android:layout_marginBottom="6dp"
+                                android:textColor="@color/darkblue"
+                                android:padding="5dp"
+                                android:background="@drawable/layout_white"/>
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="8dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="13dp"
+                        app:cardElevation="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Instansi/Club"
+                                android:textColor="@color/darkblue"
+                                android:layout_marginLeft="10dp"/>
+
+                            <EditText
+                                android:id="@+id/etAlamat"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="4dp"
+                                android:inputType="text"
+                                android:hint="Masukan nama instansi/club..."
+                                android:textColor="@color/darkblue"
+                                android:padding="5dp"
+                                android:background="@drawable/layout_white"/>
+
+
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="24dp"
+                        android:textStyle="bold"
+                        android:text="Booking Detail"
+                        android:textColor="@color/teal_700"
+                        android:textSize="16dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+                            android:drawablePadding="6dp"
+                            android:text="Lapangan"
+                            android:textColor="@color/darkblue" />
+
+
+                        <TextView
+                            android:id="@+id/resultLapangan"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:drawableRight="@drawable/ic_baseline_access_time_24"
+                            android:drawablePadding="6dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:textColor="@color/darkblue" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+                            android:drawablePadding="6dp"
+                            android:text="Sewa"
+                            android:textColor="@color/darkblue" />
+
+
+                        <TextView
+                            android:id="@+id/resultJam"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:drawableRight="@drawable/ic_baseline_access_time_24"
+                            android:drawablePadding="6dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:textColor="@color/darkblue" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+                            android:drawablePadding="6dp"
+                            android:text="Status"
+                            android:textColor="@color/darkblue" />
+
+
+                        <TextView
+                            android:id="@+id/resultStatus"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:drawableRight="@drawable/ic_baseline_access_time_24"
+                            android:drawablePadding="6dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:text="Lapangan"
+                            android:textColor="@color/darkblue" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+                            android:drawablePadding="6dp"
+                            android:text="Fasilitas"
+                            android:textColor="@color/darkblue" />
+
+
+                        <TextView
+                            android:id="@+id/tvFasilitas"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:drawableRight="@drawable/ic_baseline_access_time_24"
+                            android:drawablePadding="6dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:text="Free"
+                            android:textColor="@color/darkblue" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="14dp"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:drawableLeft="@drawable/ic_baseline_verified_user_24"
+                            android:drawablePadding="6dp"
+                            android:text="Harga"
+                            android:textColor="@color/darkblue" />
+
+
+                        <TextView
+                            android:id="@+id/tvPrice"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:drawableRight="@drawable/ic_baseline_access_time_24"
+                            android:drawablePadding="6dp"
+                            android:textStyle="bold"
+                            android:gravity="right"
+                            android:text="IDR 240.000"
+                            android:textColor="@color/teal_700"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/pending"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@drawable/ic_baseline_access_time_24"
+                        android:drawablePadding="6dp"
+                        android:text="Proses"
+                        android:textColor="@color/darkblue"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnCheckout"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/button_yellow"
+                android:textStyle="bold"
+                android:text="Checkout Now"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/iv_checkout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Include Free"
+        android:textColor="@color/abuabu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_checkout" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/gambar2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:civ_border_color="@color/yellow"
+        app:civ_border_width="2dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gambar1"
+        app:layout_constraintStart_toEndOf="@+id/gambar1"
+        app:layout_constraintTop_toTopOf="@+id/gambar1"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/gambar3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:civ_border_color="@color/yellow"
+        app:civ_border_width="2dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gambar2"
+        app:layout_constraintStart_toEndOf="@+id/gambar2"
+        app:layout_constraintTop_toTopOf="@+id/gambar2"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="4dp"
+        android:background="@drawable/layout_white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Page Checkout"
+        android:textColor="@color/darkblue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/back"
+        app:layout_constraintTop_toTopOf="@+id/iv_checkout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

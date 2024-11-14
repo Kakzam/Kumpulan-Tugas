@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "537681634392",
+    "project_id": "damai-futsal",
+    "storage_bucket": "damai-futsal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537681634392:android:58a21a9ac42fbb9f30162d",
+        "android_client_info": {
+          "package_name": "com.damai.futsal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537681634392-8p7fdqdldlb3iovkcnp9rjkgjh7334gm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCER_Q4uqvyJ3qBCTEPgXhDF0hALGMjjIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537681634392-8p7fdqdldlb3iovkcnp9rjkgjh7334gm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

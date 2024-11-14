@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "761277760914",
+    "project_id": "cakasku",
+    "storage_bucket": "cakasku.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761277760914:android:5dac40d3ce1d360b226d4b",
+        "android_client_info": {
+          "package_name": "com.cakas.ku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761277760914-gholpnohv7md8a3i4dts5nuvm3uk3imt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIEkYu0KJsQqqpwfxmJ9K3o3R2IJrVh_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761277760914-gholpnohv7md8a3i4dts5nuvm3uk3imt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

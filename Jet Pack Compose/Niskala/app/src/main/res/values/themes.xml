@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Niskala" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+    <style name="Base.Theme.Niskala2" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/merah</item>
+    </style>
+
+    <style name="Theme.Niskala" parent="Base.Theme.Niskala" />
+    <style name="Theme.Niskala2" parent="Base.Theme.Niskala2" />
+</resources>

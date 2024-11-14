@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Zone Beauty Nails</string>
+    <string name="title_activity_continue">ContinueActivity</string>
+    <string name="title_activity_transaksi">TransaksiActivity</string>
+</resources>

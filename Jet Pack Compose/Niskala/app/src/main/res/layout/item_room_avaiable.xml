@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_select"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/ic_button_background"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_avaiable_today" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/avaiable"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/ic_date_background"
+                    android:paddingTop="2sp"
+                    android:backgroundTint="@color/b_a"
+                    android:paddingBottom="2sp"
+                    android:paddingStart="8sp"
+                    android:paddingEnd="8sp"
+                    android:textColor="@color/t_a"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:text="Available" />
+
+                <TextView
+                    android:id="@+id/unavaiable"
+                    android:layout_width="wrap_content"
+                    android:background="@drawable/ic_date_background"
+                    android:paddingTop="2sp"
+                    android:backgroundTint="@color/b_u"
+                    android:paddingBottom="2sp"
+                    android:paddingStart="8sp"
+                    android:paddingEnd="8sp"
+                    android:textColor="@color/merah"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:text="Unavailable" />
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Gambar" />
+
+                <TextView
+                    android:id="@+id/deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deskripsi Gambar" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

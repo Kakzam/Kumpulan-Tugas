@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Jakal7</string>
+    <string name="sub">Silahkan Login menggunakan account <b>Google</b> anda</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

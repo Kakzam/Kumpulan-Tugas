@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "807904399145",
+    "project_id": "alika-thrift-59289",
+    "storage_bucket": "alika-thrift-59289.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807904399145:android:8375be224b9725ed16f138",
+        "android_client_info": {
+          "package_name": "com.alika.thrift"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807904399145-5uksa4riilfth5bhm5p03q35s91k2tjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADXyYSZ7B-igYTPCLXCUZCIafy3FIthII"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "807904399145-5uksa4riilfth5bhm5p03q35s91k2tjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

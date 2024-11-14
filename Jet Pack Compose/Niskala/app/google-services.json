@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "271684909584",
+    "project_id": "niskala-2d1b4",
+    "storage_bucket": "niskala-2d1b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271684909584:android:ffaefbcc885723b3b16895",
+        "android_client_info": {
+          "package_name": "com.teknokrat.niskala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271684909584-jfgjbi9r8sjaikihdcrhcho88481c5jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQyKzAngO0Oq-h9UkUbqISxkV0qj98cHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271684909584-jfgjbi9r8sjaikihdcrhcho88481c5jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

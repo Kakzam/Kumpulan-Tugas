@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "921200992223",
+    "project_id": "cash-crab",
+    "storage_bucket": "cash-crab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921200992223:android:24461c1fce8a1746bbae6a",
+        "android_client_info": {
+          "package_name": "com.cash.crab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "921200992223-8dspfg5ar8vn4cl2sm1jgk42pdcll9p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeQGOZo9rZTzfrt32CQwebBo0xvE2y1KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "921200992223-8dspfg5ar8vn4cl2sm1jgk42pdcll9p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

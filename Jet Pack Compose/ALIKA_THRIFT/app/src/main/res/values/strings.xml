@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ALIKA THRIFT</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_shop">ShopActivity</string>
+</resources>
