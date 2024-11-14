@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "32813111905",
+    "project_id": "ronaldo-sinaga",
+    "storage_bucket": "ronaldo-sinaga.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32813111905:android:2ec33cf61ce4610aee2820",
+        "android_client_info": {
+          "package_name": "com.ayamgeprek.agh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32813111905-2mb9b4lm1kkrk0b1fps2rm7h5udh7ome.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHcoKC-yAG9Qjm2dUNCjTV4EvXHX0ANYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32813111905-2mb9b4lm1kkrk0b1fps2rm7h5udh7ome.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

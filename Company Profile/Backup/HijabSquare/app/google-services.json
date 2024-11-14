@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "806509399418",
+    "project_id": "nauval---hijab-square",
+    "storage_bucket": "nauval---hijab-square.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806509399418:android:7acd101ac34eade1179ac3",
+        "android_client_info": {
+          "package_name": "com.square.hijab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806509399418-ukukkh2gj5evnuoh9pi67m7dn1rec8oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_OkC3yBHBCtoKO9-_9SsDQDoFRj9fRoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806509399418-ukukkh2gj5evnuoh9pi67m7dn1rec8oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

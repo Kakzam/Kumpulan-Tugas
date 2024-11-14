@@ -1,0 +1,15 @@
+*.iml
+.gradle
+app/google-services.json
+app/gradle.properties
+/local.properties
+.idea
+.DS_Store
+/build
+**/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+*.aar
+assets/*.mp4

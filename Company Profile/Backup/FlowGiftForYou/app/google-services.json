@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "246050969588",
+    "project_id": "testing-bucket-84f63",
+    "storage_bucket": "testing-bucket-84f63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246050969588:android:dbb813aa33a7064bc74ba1",
+        "android_client_info": {
+          "package_name": "com.flow.giftforyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246050969588-j0bs977a8li8ji6mofu9ft1r40ma6dbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeQq9PSgMNUZh5WHFhjGz4dj3GbZPdM8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246050969588-j0bs977a8li8ji6mofu9ft1r40ma6dbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

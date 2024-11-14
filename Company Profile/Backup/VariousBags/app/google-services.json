@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1046815389334",
+    "project_id": "yesi-dan-cyntya",
+    "storage_bucket": "yesi-dan-cyntya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046815389334:android:37ae592217920d6ac1f4b7",
+        "android_client_info": {
+          "package_name": "com.various.bags"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046815389334-pca2r6tm1kcfch5dmprq0j1gehl0ao9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGJ1eGwzt9DWNpmDU5nEfkgoTpoV8Drec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046815389334-pca2r6tm1kcfch5dmprq0j1gehl0ao9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

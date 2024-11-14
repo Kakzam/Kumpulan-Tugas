@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_dessert"
+        android:icon="@drawable/ic_logo"
+        android:title="@string/title_dessert" />
+
+    <item
+        android:id="@+id/navigation_order"
+        android:icon="@drawable/ic_order"
+        android:title="@string/title_order" />
+
+    <item
+        android:id="@+id/navigation_register"
+        android:icon="@drawable/ic_register"
+        android:title="@string/title_register" />
+
+</menu>

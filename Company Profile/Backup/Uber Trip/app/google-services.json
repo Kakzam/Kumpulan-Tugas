@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "512993395078",
+    "project_id": "dany-a95d6",
+    "storage_bucket": "dany-a95d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512993395078:android:47268826700cb15a97ec07",
+        "android_client_info": {
+          "package_name": "com.companyprofile.danyekasaputra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512993395078-h188d2g3klqgn00l7g8mpsmifv1oegt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1QuUq2hnUBqb2X-2131-0MHpSqz4cl7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512993395078-h188d2g3klqgn00l7g8mpsmifv1oegt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512993395078:android:a91c0c5eb8e300ed97ec07",
+        "android_client_info": {
+          "package_name": "com.uber.trip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512993395078-h188d2g3klqgn00l7g8mpsmifv1oegt4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1QuUq2hnUBqb2X-2131-0MHpSqz4cl7Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512993395078-h188d2g3klqgn00l7g8mpsmifv1oegt4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Anak Kost</string>
+    <string name="title_activity_beranda_admin">BerandaAdminActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main3">MainActivity3</string>
+</resources>

@@ -1,0 +1,117 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-parcelize'
+    id 'com.google.gms.google-services' // Google Services Gradle plugin
+    id 'com.google.firebase.crashlytics'
+}
+android {
+    compileSdkVersion 31
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "live.hms.app2"
+        minSdkVersion 24
+        targetSdkVersion 31
+        versionCode 328
+        versionName "3.6.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "boolean", 'INTERNAL', 'false'
+        buildConfigField "String", 'TOKEN_ENDPOINT', '"https://prod-in2.100ms.live/hmsapi/ujicoba.app.100ms.live/"'
+        buildConfigField "String", 'BUG_REPORT_EMAIL_TO', '"BUG_REPORT_EMAIL_TO"'
+        buildConfigField "String", 'BUG_REPORT_EMAIL_CC', '"BUG_REPORT_EMAIL_CC"'
+        buildConfigField "String", 'RTMP_INJEST_URL', project.findProperty('RTMP_INJEST_URL') ? RTMP_INJEST_URL + '' : '"\\"\\""'
+//        buildConfigField "Boolean", "false", INTERNAL
+//        buildConfigField "String", "https://prod-in2.100ms.live/hmsapi/ujicoba.app.100ms.live/", TOKEN_ENDPOINT
+//        buildConfigField "String", "BUG_REPORT_EMAIL_TO", BUG_REPORT_EMAIL_TO
+//        buildConfigField "String", "BUG_REPORT_EMAIL_CC", BUG_REPORT_EMAIL_CC
+//        buildConfigField "String", "RTMP_INJEST_URL", project.findProperty('RTMP_INJEST_URL') ? RTMP_INJEST_URL : "\"\""
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+        }
+
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            firebaseCrashlytics {
+                mappingFileUploadEnabled true
+            }
+        }
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+    compileOptions {
+        sourceCompatibility = "1.8"
+        targetCompatibility = "1.8"
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+
+    //100ms.live SDK
+    implementation 'com.github.100mslive.android-sdk:lib:2.4.1'
+    implementation 'com.github.100mslive.android-sdk:virtualBackground:2.4.1'
+
+    // Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:2.4.0"
+    implementation "androidx.navigation:navigation-ui-ktx:2.4.0"
+
+    // Life Cycle
+    implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0"
+    implementation "androidx.lifecycle:lifecycle-common-java8:2.4.0"
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.4.0'
+
+    // Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
+
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0'
+
+    // Get Permissions easily
+    implementation 'pub.devrel:easypermissions:1.1.3'
+
+    // Firebase Crashlytics
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:26.2.0')
+
+    // Declare the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    implementation 'io.grpc:grpc-okhttp:1.36.1'
+    implementation 'io.grpc:grpc-protobuf-lite:1.36.1'
+    implementation 'io.grpc:grpc-stub:1.36.1'
+
+    // debugImplementation because LeakCanary should only run in debug builds.
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.8.1'
+
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+    implementation 'com.google.android.exoplayer:exoplayer-hls:2.16.1'
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.16.1'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.16.1'
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+}

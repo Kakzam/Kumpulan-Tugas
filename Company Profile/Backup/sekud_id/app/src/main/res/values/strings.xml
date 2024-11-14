@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Sekud Id</string>
+
+    <!-- public -->
+    <string name="maps">Maps</string>
+    <string name="back">Kembali</string>
+    <string name="save">Simpan</string>
+
+    <!-- mobile_navigation -->
+    <string name="title_item">Beli</string>
+    <string name="title_about">Tawaran</string>
+    <string name="title_location">Lokasi</string>
+
+    <string name="title_user">Akun</string>
+    <string name="title_profile">profile</string>
+
+    <!-- fragment_location -->
+    <string name="fragment_location_title">Pusat Pelayanan</string>
+    <string name="fragment_location_search_hint">Cari Lokasi Tedekatmu…</string>
+
+    <!-- fragment_item -->
+    <string name="fragment_item_search_hint">Cari Barang Baru dan Second…</string>
+
+    <!-- fragment_item -->
+    <string name="fragment_account_search_hint">Cari Akun…</string>
+    <string name="fragment_account_title">Administrator</string>
+
+    <!-- Dialog Location -->
+    <string name="dialog_location_name_location">Nama Lokasi</string>
+    <string name="dialog_location_maps">Link Google Maps</string>
+    <string name="dialog_location_title">Lokasi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

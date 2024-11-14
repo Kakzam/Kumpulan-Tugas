@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494768089360",
+    "project_id": "rayshaolshop",
+    "storage_bucket": "rayshaolshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494768089360:android:1e3c1503988eacbb485d95",
+        "android_client_info": {
+          "package_name": "com.example.rayshaolshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494768089360-l62lr7acdraonng1dlsgvfhubdhtc26n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0QIEAXghSXouEe221CtDBbjnbudMaGnE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494768089360-l62lr7acdraonng1dlsgvfhubdhtc26n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

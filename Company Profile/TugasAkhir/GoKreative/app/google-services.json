@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "366897263870",
+    "project_id": "yoga-pratama-fae14",
+    "storage_bucket": "yoga-pratama-fae14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366897263870:android:e1d4b0018192674953e1af",
+        "android_client_info": {
+          "package_name": "com.go.creative"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366897263870-1lq7hhqn1tklvi6r7aujdsathok62vr8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuD-EPw7O_mVkVVPxzZ2NFvkvCp8UWWxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366897263870-1lq7hhqn1tklvi6r7aujdsathok62vr8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

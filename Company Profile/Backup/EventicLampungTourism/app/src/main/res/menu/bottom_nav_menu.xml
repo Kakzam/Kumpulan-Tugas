@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_register"
+        android:icon="@drawable/pendaftaran"
+        android:title="@string/title_pendaftaran" />
+
+    <item
+        android:id="@+id/navigation_verification"
+        android:icon="@drawable/verification"
+        android:title="@string/title_verification" />
+
+</menu>

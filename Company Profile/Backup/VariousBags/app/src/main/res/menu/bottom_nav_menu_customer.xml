@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_bags"
+        android:icon="@drawable/menu_bags"
+        android:title="Tas" />
+
+    <item
+        android:id="@+id/navigation_notificaitons"
+        android:icon="@drawable/menu_notifikasi"
+        android:title="Notifikasi" />
+
+    <item
+        android:id="@+id/navigation_trolley"
+        android:icon="@drawable/menu_trolley"
+        android:title="Trolley" />
+
+    <item
+        android:id="@+id/navigation_user"
+        android:icon="@drawable/menu_user"
+        android:title="User" />
+
+</menu>

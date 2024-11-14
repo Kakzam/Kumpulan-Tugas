@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Catering Dessert</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_dessert">Dessert</string>
+    <string name="title_order">Order</string>
+    <string name="title_register">Registrasi</string>
+</resources>

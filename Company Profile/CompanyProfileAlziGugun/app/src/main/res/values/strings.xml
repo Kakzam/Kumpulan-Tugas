@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Earthqualizer</string>
+    <string name="title_home">Utama</string>
+    <string name="title_history">Sejarah</string>
+    <string name="title_about">Tentang</string>
+    <string name="title_work">Lowongan</string>
+    <string name="title_verifikasi">Verifikasi</string>
+</resources>

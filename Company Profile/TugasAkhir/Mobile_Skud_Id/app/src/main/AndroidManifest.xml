@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mobile.skud_id">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".base.Application"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Mobile_Skud_Id"
+        tools:targetApi="31">
+        <activity
+            android:name=".feature.ui.administrator.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.ui.customer.DetailActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".feature.ui.create.CreateLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.ui.create.CreateItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.ui.create.UpdateLocationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.ui.create.UpdateItemActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".feature.CustomerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_administrator" />
+        <activity
+            android:name=".feature.AdministratorActivity"
+            android:exported="false"
+            android:label="@string/title_activity_administrator" />
+        <activity
+            android:name=".feature.VerificationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_verification" />
+        <activity
+            android:name=".feature.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

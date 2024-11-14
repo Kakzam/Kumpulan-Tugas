@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "996551149873",
+    "project_id": "warman-willy",
+    "storage_bucket": "warman-willy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996551149873:android:46d85b87b1c83303948810",
+        "android_client_info": {
+          "package_name": "com.anak.anakkost"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996551149873-0jdbd1g9vkmri5q531brpt7kgekduoig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXHWxNYU2lt4GGRS8t0FPYgX-sZ_QKnTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996551149873-0jdbd1g9vkmri5q531brpt7kgekduoig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996551149873:android:4903f4566709e1f1948810",
+        "android_client_info": {
+          "package_name": "com.companyprofile.willywarman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996551149873-0jdbd1g9vkmri5q531brpt7kgekduoig.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXHWxNYU2lt4GGRS8t0FPYgX-sZ_QKnTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996551149873-0jdbd1g9vkmri5q531brpt7kgekduoig.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

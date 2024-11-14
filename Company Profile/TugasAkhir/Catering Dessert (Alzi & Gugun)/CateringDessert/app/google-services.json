@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "223209109844",
+    "project_id": "alzi-dan-gugun",
+    "storage_bucket": "alzi-dan-gugun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223209109844:android:7f106e06ba00e90fd0b0c1",
+        "android_client_info": {
+          "package_name": "com.catering.dessert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "223209109844-e5b1gp01d8vu1kktjruqd90dvc5upqdg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmjJDJ_-8n0zeOtkcCMNBKiztkMvEP-P8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "223209109844-e5b1gp01d8vu1kktjruqd90dvc5upqdg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

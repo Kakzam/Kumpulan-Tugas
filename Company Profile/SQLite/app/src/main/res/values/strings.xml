@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PSQLite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="txt_npm">NPM</string>
+    <string name="txt_nama">Nama</string>
+    <string name="btn_simpan">Simpan</string>
+    <string name="btn_ubah">Ubah</string>
+    <string name="btn_batal">Batal</string>
+</resources>

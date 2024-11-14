@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722069674108",
+    "project_id": "andre-dan-arya-pandu",
+    "storage_bucket": "andre-dan-arya-pandu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722069674108:android:96eda5e4f843ecc9ff11f9",
+        "android_client_info": {
+          "package_name": "com.eventic.lampungtourism"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722069674108-9kihb8qlbsdaosis4dm3hv3bhm14ecam.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDQjciZtUvispZlSr6RoL2H4jWw10687E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722069674108-9kihb8qlbsdaosis4dm3hv3bhm14ecam.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
