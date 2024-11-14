@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class UserModel extends Model
+{
+    use HasFactory;
+    protected $fillable = [
+        'nama_lengkap',
+        'username',
+        'password',
+        'gambar',
+        'alamat',
+        'phone',
+        'jenis_kelamin'
+    ];
+}
