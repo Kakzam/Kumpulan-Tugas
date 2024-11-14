@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BrideTobe-TA</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register_actyvity">RegisterActyvity</string>
+</resources>
