@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SatuMainActivity">
+
+    <!-- Navbar -->
+    <RelativeLayout
+        android:id="@+id/navbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="#808080">
+
+        <ImageView
+            android:id="@+id/iconImageView"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_icon" />
+
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iconImageView"
+            android:layout_toRightOf="@id/iconImageView"
+            android:layout_centerVertical="true"
+            android:text="Hi, \nRiska Octivia"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/navbarLayout"
+        android:padding="16dp">
+
+        <!-- Icon Gambar -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_gambar"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Teks -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SISPEM"
+            android:textSize="24sp"
+            android:textColor="#D30000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONLINE"
+            android:textSize="18sp"
+            android:textColor="#808080"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Tombol 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/tombol_1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#00DD0606"
+                android:text="Kerumahtanggan"
+                android:textColor="#D30000"
+                android:textSize="16sp" />
+
+            <!-- Tombol 2 -->
+            <Button
+                android:id="@+id/tombol_2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:backgroundTint="#00DD0606"
+                android:text="Pustik"
+                android:textColor="#D30000"
+                android:textSize="16sp" />
+
+            <!-- Tombol 3 -->
+            <Button
+                android:id="@+id/tombol_3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:backgroundTint="#00DD0606"
+                android:text="Ruangan"
+                android:textColor="#D30000"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

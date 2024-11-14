@@ -1,0 +1,184 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcaraActivity">
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Icon Gambar -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_gambar"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Teks -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SISPEM"
+            android:textSize="24sp"
+            android:textColor="#D30000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONLINE"
+            android:textSize="18sp"
+            android:textColor="#808080"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acara"
+            android:textSize="25sp"
+            android:textColor="#D30000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp" />
+
+        <!-- Tanggal Peminjaman -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Peminjaman"
+            android:textSize="16sp"
+            android:textColor="#D30000"
+            android:layout_marginTop="16dp" />
+
+        <!-- Formulir Persegi -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F2F2F2"
+            android:padding="8dp">
+
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan data"
+                android:padding="8dp"
+                android:background="@null"
+                android:layout_marginStart="16dp"
+                android:focusable="false"
+                android:onClick="showDatePickerDialog" />
+
+        </FrameLayout>
+
+        <!-- Tanggal Peminjaman -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Nama Narang"
+            android:textSize="16sp"
+            android:textColor="#D30000"
+            android:layout_marginTop="16dp" />
+
+        <!-- Formulir Persegi -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F2F2F2"
+            android:padding="8dp">
+
+
+            <EditText
+                android:id="@+id/editTextBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan data"
+                android:padding="8dp"
+                android:background="@null"
+                android:layout_marginStart="16dp"
+                android:focusable="false"
+                android:onClick="showDataListDialog" />
+
+        </FrameLayout>
+
+        <!-- Tanggal Peminjaman -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masukan Jumlah"
+            android:textSize="16sp"
+            android:textColor="#D30000"
+            android:layout_marginTop="16dp" />
+
+        <!-- Formulir Persegi -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#F2F2F2"
+            android:padding="8dp">
+
+
+            <EditText
+                android:id="@+id/jumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukkan data"
+                android:padding="8dp"
+                android:inputType="number"
+                android:background="@null"
+                android:layout_marginStart="16dp" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/tombol"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#00DD0606"
+            android:text="Next"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#D30000"
+            android:textSize="16sp" />
+
+        <!-- Kotak -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baca ketentuan disini"
+                android:textSize="16sp"
+                android:textColor="#D30000" />
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dengan mencentang ini anda setuju \ndengan ketentuan yang berlaku"
+                android:textSize="16sp"
+                android:textColor="#808080"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmpatActivity">
+
+    <!-- Main Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Icon Gambar -->
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon_gambar"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Teks -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SISPEM"
+            android:textSize="24sp"
+            android:textColor="#D30000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ONLINE"
+            android:textSize="18sp"
+            android:textColor="#808080"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ruangan"
+            android:textSize="25sp"
+            android:textColor="#D30000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp" />
+
+        <!-- Tombol 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/tombol_1"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#00DD0606"
+                android:text="Gedung GSG"
+                android:textColor="#D30000"
+                android:textSize="16sp" />
+
+            <!-- Tombol 2 -->
+            <Button
+                android:id="@+id/tombol_2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#00DD0606"
+                android:text="Gedung A"
+                android:textColor="#D30000"
+                android:textSize="16sp" />
+
+            <!-- Tombol 3 -->
+            <Button
+                android:id="@+id/tombol_3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#00DD0606"
+                android:text="Gedung B"
+                android:textColor="#D30000"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/tombol_4"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#00DD0606"
+                android:text="Gedung ICT"
+                android:textColor="#D30000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Kotak -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Baca ketentuan disini"
+                android:textSize="16sp"
+                android:textColor="#D30000" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dengan mencentang ini anda setuju \ndengan ketentuan yang berlaku"
+                android:textSize="16sp"
+                android:textColor="#808080"
+                android:layout_marginTop="8dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
