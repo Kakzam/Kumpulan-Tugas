@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:scrollbars="none">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3F2305">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/_12sdp"
+                android:text="GKE BANJARBARU"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18sdp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"/>
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="@dimen/_180sdp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/slider"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_25sdp">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/tentang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_gravity="center"
+                        app:cardCornerRadius="@dimen/_10sdp"
+                        android:layout_height="@dimen/_40sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_40sdp"
+                            android:background="#3F2305"
+                            android:padding="@dimen/_8sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/ic_tentang"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TENTANG"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/jadwal_ibadah"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="@dimen/_40sdp"
+                        app:cardCornerRadius="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_40sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_40sdp"
+                            android:background="#3F2305"
+                            android:padding="@dimen/_8sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/ic_jadwal"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JADWAL\nIBADAH"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/arsip_kegiatan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="@dimen/_40sdp"
+                        app:cardCornerRadius="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_40sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_40sdp"
+                            android:background="#3F2305"
+                            android:padding="@dimen/_8sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/ic_arsip_kegiatan"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ARSIP\nKEGIATAN"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:id="@+id/alkitab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="@dimen/_40sdp"
+                        app:cardCornerRadius="@dimen/_10sdp"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_40sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_40sdp"
+                            android:background="#3F2305"
+                            android:padding="@dimen/_8sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/ic_alkitab"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ALKITAB"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        tools:ignore="HardcodedText" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:fontFamily="@font/montserratbold"
+                android:text="Renungan Pagi"
+                android:textColor="@color/black"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/_18sdp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/seemore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="16dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:text="See More"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_renunganpagi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:background="@color/white" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/montserratbold"
+                android:layout_centerVertical="true"
+                android:text="Live Streaming Ibadah"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_18sdp"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:id="@+id/seemoreLive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/_16sdp"
+                android:layout_alignParentEnd="true"
+                android:text="See More"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText" />
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_streamingibadah"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/_14sdp"
+            android:layout_height="wrap_content"
+            android:background="@color/white" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

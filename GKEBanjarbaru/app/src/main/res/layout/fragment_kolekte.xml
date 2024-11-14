@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fitur.KolekteFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F2305">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_12sdp"
+            android:text="Persembahan"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ayat_persembahan" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:background="@drawable/bg_kolekte2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_kolekte1"
+                    android:fontFamily="@font/montserratbold"
+                    android:paddingStart="@dimen/_14sdp"
+                    android:paddingTop="@dimen/_6sdp"
+                    android:paddingBottom="@dimen/_6sdp"
+                    android:text="BRI Bank Transfer"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14sdp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,RtlSymmetry" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:fontFamily="@font/montserratbold"
+                    android:textStyle="bold"
+                    android:text="Gereja Kalimantan Evangelis Banjarbaru"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_11sdp"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/text_copy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="@font/montserratbold"
+                    android:text="1060-01-001730-53-6"
+                    android:textColor="#0000FF"
+                    android:drawableEnd="@drawable/ic_copy"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:fontFamily="@font/montserratbold"
+                android:text="QRIS Code"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14sdp"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:layout_width="@dimen/_190sdp"
+                android:layout_height="@dimen/_230sdp"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:src="@drawable/qris" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_14sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginEnd="@dimen/_14sdp"
+                android:layout_marginBottom="@dimen/_14sdp"
+                android:fontFamily="@font/montserratbold"
+                android:text="Note: Bagi saudara pengguna aplikasi layanan keuangan digital atau aplikasi perbankan lainnya yang memfasilitasi pembayaran via kode QR, saudara bisa memberikan persembahan saudara melalui scan QRIS. Cukup pakai fitur bayar atau sejenisnya di aplikasi yang sudara pakai, pindai gambar kode QRIS GKE Banjarbaru, lalu masukkan nominal persembahan yang saudara ingin berikan."
+                android:textSize="@dimen/_8sdp"
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
